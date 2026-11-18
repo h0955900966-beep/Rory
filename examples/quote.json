@@ -1,0 +1,20 @@
+{
+  "_note": "Synthetic example only. FX rates and supplier costs are editable inputs, not live quotes.",
+  "travelers": 4,
+  "single_travelers": 2,
+  "nights": 4,
+  "vnd_per_1000_twd": "800000",
+  "twd_per_usd": "32",
+  "margin_percent": "20",
+  "quote_round_to_twd": "100",
+  "hotel": {
+    "currency": "VND",
+    "twin_room_per_night": "1600000",
+    "single_room_per_night": "1600000"
+  },
+  "cost_lines": [
+    {"label": "Vehicle, whole group", "amount": "12000000", "currency": "VND", "quantity": "1"},
+    {"label": "Meals, 4 people x 5 meals", "amount": "15", "currency": "USD", "quantity": "20"},
+    {"label": "Insurance, 4 people", "amount": "200", "currency": "TWD", "quantity": "4"}
+  ]
+}
